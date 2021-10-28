@@ -1,0 +1,88 @@
+body {
+    max-width:1440px;
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-align:center;
+    margin-top:100px 0;
+}
+
+h1 {
+    font-size:64 px;
+    font-weight:bolder;
+}
+
+input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:10px;
+    color:grey;
+    font-weight: bold;
+}
+
+input:hover,
+input:focus {
+    border:1px solid hsl(248, 32%, 49%);
+    border-radius: 5px;
+}
+
+.free-trial-bar {
+    border-radius: 5px;
+    border: 1px solid hsl(248, 32%, 49%);
+    box-shadow: 0 5px #CD5C5C;
+    background-color:hsl(248, 32%, 49%);
+    color:white;
+    padding:10px;
+}
+
+.input-bar{
+    color: #696969;
+
+}
+
+.claim-trial {
+    border-radius: 5px;
+    border: 1px solid #2E8B57;
+    background-color:hsl(154, 59%, 51%);
+    box-shadow: 0 5px #2E8B57;
+    color:white;
+    font-weight: bold;
+    padding:10px;  
+}
+
+form,
+button {
+    width: 50%;
+}
+
+form{
+    border: 1px solid hsl(248, 32%, 49%);
+    list-style:none;
+    background-color: whitesmoke;
+    margin: 50px 0;
+
+}
+
+.container{
+    border:10px solid blue;
+    display:flex;
+}
+
+.column-left {
+    border:10px solid red;
+    width:50%; 
+}
+
+
+
+.column-right{
+    border:10px solid yellow;
+    width:50%;
+}
+
+.input-bar{
+    border:5px solid green;
+    list-style:none;
+}
+
